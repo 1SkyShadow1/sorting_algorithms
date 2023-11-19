@@ -44,5 +44,6 @@ void int_swaper3(int array[], int item1, int item2, int ord)
 void sort_bit(int array[], int first, int items, int size);
 void bitonic_sort(int *array, size_t size);
 void make_merge(int *array, int *temp, int begin, int middle, int end);
+void sort_merge(int array[], int first, int size, int asc);
 void merge_asc(int *array, int *temp, int begin, int end);
 #endif
