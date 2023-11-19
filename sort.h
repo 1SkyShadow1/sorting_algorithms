@@ -41,7 +41,9 @@ void sort_count(int *array, size_t n, int expo, int *output);
 void radix_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void int_swaper3(int array[], int item1, int item2, int ord);
-void merge_sort(int array[], int first, int size, int asc);
+void merge_sort(int *array, size_t size);
 void sort_bit(int array[], int first, int items, int size);
 void bitonic_sort(int *array, size_t size);
+void make_merge(int *array, int *temp, int begin, int middle, int end);
+void merge_asc(int *array, int *temp, int begin, int end);
 #endif
