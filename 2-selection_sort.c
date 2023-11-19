@@ -5,7 +5,7 @@
  * @size: size of the array
  * @array: list with numbers
  */
-void selction_sort(int *array, size_t size)
+void selection_sort(int *array, size_t size)
 {
 	size_t i, index;
 	int tmp, swap, flag = 0;
