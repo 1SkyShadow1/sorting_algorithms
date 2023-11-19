@@ -46,4 +46,5 @@ void bitonic_sort(int *array, size_t size);
 void make_merge(int *array, int *temp, int begin, int middle, int end);
 void sort_merge(int array[], int first, int size, int asc);
 void merge_asc(int *array, int *temp, int begin, int end);
+void merge_sort(int *array, size_t size);
 #endif
