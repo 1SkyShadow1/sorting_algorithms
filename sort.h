@@ -21,6 +21,7 @@ typedef struct listint_s
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void change_swap(int *array, ssize_t item1, ssize_t item2);
 int re_partition(int *array, ssize_t first, ssize_t last, size_t size);
@@ -32,6 +33,8 @@ void shell_sort(int *array, size_t size);
 void int_swaper(int *array, int intOne, int intTwo);
 void cocktail_sort_list(listint_t **list);
 listint_t *change_node_position(listint_t *node, listint_t **list);
+int hoare_part(int *array, int first, int last, int size);
+void int_swaper4(int *array, ssize_t item1, ssize_t item2);
 void counting_sort(int *array, size_t size);
 void *my_calloc(unsigned int members, unsigned int size);
 void int_swaper2(int *a, int *b);
@@ -40,7 +43,7 @@ int max_value(int *arr, int n);
 void sort_count(int *array, size_t n, int expo, int *output);
 void radix_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
-void int_swaper3(int array[], int item1, int item2, int ord)
+void int_swaper3(int array[], int item1, int item2, int ord);
 void sort_bit(int array[], int first, int items, int size);
 void bitonic_sort(int *array, size_t size);
 void make_merge(int *array, int *temp, int begin, int middle, int end);
