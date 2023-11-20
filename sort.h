@@ -25,7 +25,7 @@ void quick_sort_hoare(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void change_swap(int *array, ssize_t item1, ssize_t item2);
 int re_partition(int *array, ssize_t first, ssize_t last, size_t size);
-void custom_quick(int *array, size_t size);
+void custom_quick(int *array, ssize_t first, ssize_t last, int size);
 listint_t *my_node_swap(listint_t *node, listint_t **list);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
