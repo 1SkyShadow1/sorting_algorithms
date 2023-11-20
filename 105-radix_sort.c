@@ -43,7 +43,7 @@ void sort_count(int *array, size_t n, int expo, int *output)
 		count[(array[i] / expo) % 10]--;
 	}
 
-	for (i = o; i < (int)n; i++)
+	for (i = 0; i < (int)n; i++)
 		array[i] = output[i];
 	/*print_array(array, n);*/
 }
