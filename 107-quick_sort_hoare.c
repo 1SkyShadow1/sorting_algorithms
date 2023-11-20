@@ -32,7 +32,7 @@ int hoare_part(int *array, int first, int last, int size)
 	{
 		do {
 			current++;
-		} while (aray[finder] > pivot);
+		} while (array[finder] > pivot);
 		do {
 			finder--;
 		} while (array[finder] > pivot);
